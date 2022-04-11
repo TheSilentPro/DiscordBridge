@@ -1,0 +1,12 @@
+# Bot Configuration
+bot:
+  token: ""
+  status: "ONLINE"
+  activity:
+    enabled: false
+    type: "PLAYING"
+    name: "Minecraft"
+    url: null
+
+# Debug Mode
+debug: true

@@ -1,0 +1,7 @@
+/.idea
+
+/core/target
+/spigot/target
+
+/core/dependency-reduced-pom.xml
+/spigot/dependency-reduced-pom.xml

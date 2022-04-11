@@ -1,0 +1,12 @@
+name: DiscordBridge
+description: ${project.description}
+
+main: tsp.discordbridge.spigot.DiscordBridge
+version: ${project.version}
+author: Silent
+
+commands:
+  discordlink:
+    usage: /discordlink
+    description: Link your discord
+    aliases: [dl, linkdiscord]
