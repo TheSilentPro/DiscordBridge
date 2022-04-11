@@ -17,10 +17,14 @@ public class DiscordLinkCommand extends MinecraftCommand {
         super(DiscordBridge.getInstance(), "discordlink", "discordbridge.command.discordlink");
     }
 
+    @Override
+    public void handleConsole(CommandSender sender, String[] args) {
+        Utils.sendMessage(sender, "&cOnly for in-game players!");
+    }
 
     @Override
-    public void handle(CommandSender receiver, String[] args) {
-        Utils.sendMessage(receiver, "&cYou are already linked to a discord account!");
+    public void handle(CommandSender sender, String[] args) {
+        Utils.sendMessage(sender, "&cYou are already linked to a discord account!");
     }
 
     @Override
