@@ -14,7 +14,7 @@ import java.util.Random;
 public class DiscordLinkCommand extends MinecraftCommand {
 
     public DiscordLinkCommand() {
-        super(DiscordBridge.getInstance(), "discordlink", "discordbridge.command.discordlink");
+        super(DiscordBridge.getInstance(), "discordlink");
     }
 
     @Override

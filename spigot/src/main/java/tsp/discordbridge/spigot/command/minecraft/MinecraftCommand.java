@@ -30,7 +30,7 @@ public abstract class MinecraftCommand implements CommandExecutor {
     }
 
     public MinecraftCommand(JavaPlugin plugin, String name) {
-        this(plugin, name, "");
+        this(plugin, name, "discordbridge.command." + name);
     }
 
     public void sendNoPermission(CommandSender sender) {

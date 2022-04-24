@@ -6,7 +6,7 @@
 
     <groupId>tsp.discordbridge</groupId>
     <artifactId>DiscordBridge</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <modules>
         <module>core</module>
         <module>spigot</module>
@@ -27,12 +27,6 @@
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
             <version>5.0.0-alpha.5</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>club.minnced</groupId>
-                    <artifactId>opus-java</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- Gson -->
         <dependency>
